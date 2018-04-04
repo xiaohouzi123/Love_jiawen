@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    
+</head>
+<body>
+    <div class="coontent">
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="container" style="">
+                <input type="text" class="username" name="username" placeholder="请输入用户名">
+                <br >
+                <input type="password" class="password" name="passwrod" placeholder="请输入密码">
+                <br>
+                <input type="email" calss="email" name="email" placeholder="请输入邮箱">
+                <br>
+                <input type="submit">
+                <hr>
+            </div>
+        </form>
+        <img src="/static/images/1.jpg" alt="">
+    </div>
+</body>
+</html>

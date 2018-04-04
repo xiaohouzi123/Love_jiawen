@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>我的佳文最美丽</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+{#<link href="templatemo_style.css" rel="stylesheet" type="text/css" />#}
+<link href="/static/css/templatemo_style.css" rel="stylesheet" type="text/css">
+
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head>
+<body>
+
+<div id="templatemo_wrapper_outter">
+
+	<div id="templatemo_wrapper_inner">
+    
+    	<div id="templatemo_header">
+    
+            <div id="site_title">
+            
+                <h1><a href="#">
+                    <p style="color: #804511;">属于我们的爱情</p>
+                    <span>宋佳文你永远是我的唯一</span>
+                </a></h1>
+                
+            </div> <!-- end of site_title -->
+    
+    </div> <!-- end of templatemo_header -->
+    
+    <div id="templatemo_menu">
+    
+        <ul>
+            <li><a href="#" class="current">首页</a></li>
+            <li><a href="">个人信息</a></li>
+            <li><a href="/home/ailog">爱情日志</a></li>
+            <li><a href="#">甜蜜回忆</a></li>
+            <li><a href="/home/photo">温馨瞬间</a></li>
+            <li><a href="#">爱情时间轴</a></li>
+        </ul>    	
+    
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_content_wrapper">
+    
+    	<div id="templatemo_sidebar_wrapper">
+    
+            <div id="templatemo_sidebar_top"></div>
+            <div id="templatemo_sidebar">
+            
+                <h2>我们</h2>
+                
+                <ul class="categories_list">
+                    <li><a href="#">共同的梦想</a></li>
+                    <li><a href="#">我们的未来</a></li>
+                    <li><a href="#">我们的爱好</a></li>
+                    <li><a href="#">想去的地方</a></li>
+                    <li><a href="#">生理期</a></li>
+                </ul>
+                
+                <div class="cleaner_h30"></div>
+                
+                <h2>相爱</h2>
+            
+                <form action="/home/sousuo" method="post">
+                    {% csrf_token %}
+                    <label>重温我们的美好</label>
+                    <input type="text" value="" name="username" size="10" id="input_field" title="usernmae" />
+                    <input type="submit" name="login" value="搜索" alt="login" id="submit_btn" title="Login" />
+                    <br>
+                    <hr>
+                </form>
+
+                <h2>一生</h2>
+
+                <div class="cleaner_h10"></div>
+                
+            </div>
+            <div id="templatemo_sidebar_bottom"></div>
+        
+        </div>
+    
+		<div id="templatemo_content">
+        
+        	<div class="content_section">
+        
+                <h2>欢迎来到我们的温馨小家</h2>
+                
+                <div class="float_l_image">
+	                <img src="/static/images/1.jpg" alt="image" style="width:180px;height: 180px;"/>
+                </div>
+                
+                <p>我们期盼着相见，在漫漫的岁月里无止境的等待，等待是种煎熬，煎熬着我们寂寞的心。在漆黑的夜里泪水打湿枕巾，没有经历过怎么会明白那种撕心裂肺的痛？有时候会怪自己，为什么要在最美的季节去做最苦的事？本应该我们可以一起上课，一起吃饭，一起感受同一个温度，可是为什么要把这些是放在多年以后来做？
+人们都说爱一个人很多时候是习惯了这个人，但是思念一个人难道也是习惯了这个人吗？不！我不要这种习惯，因为这种习惯会让一个人很寂寞，很寂寞。</p>
+                
+                <p>怀念你想念你，季节匆匆地走过，岁月带来了变化，却为什么总抚不去对你的思念。一颗久久悬着的心，总在怀念你！</p>
+                
+            </div>
+            
+            <div class="content_section">
+            
+            	<div class="section_w260  float_l margin_r40">
+                	
+                    <h2>温馨瞬间</h2>
+                    
+                    <ul class="gallery">
+                    	<li><a href="#"><img src="/static/images/templatemo_image_02.jpg" alt="image 1" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_03.jpg" alt="image 2" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_04.jpg" alt="image 3" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_05.jpg" alt="image 4" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_06.jpg" alt="image 5" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_07.jpg" alt="image 6" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_08.jpg" alt="image 7" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_09.jpg" alt="image 8" /></a></li>
+                        <li><a href="#"><img src="/static/images/templatemo_image_10.jpg" alt="image 9" /></a></li>
+                   </ul>
+                   
+                   <div class="cleaner_h20"></div>
+                   <div class="button_01"><a href="#">所有照片</a></div>
+                    
+                </div>
+                
+                <div class="section_w260 float_l">
+                
+                	<h2>爱情长跑记录</h2>
+                    
+                    <h3>2017.11.23</h3>
+                    <p>异地恋是一种很苦的恋爱，因为生活，因为工作，我们选择了异地恋，便开始了漫漫的思念。有很多人在赞美异地恋，但是体会过你才会明白：赞美是多么虚伪，因为对他们而言，连一个拥抱都是奢侈。</p>
+                    <div class="button_01"><a href="#">查看更多</a></div>
+                    
+                    <div class="cleaner_h20"></div>
+                    
+                    <h3>2018.2.14</h3>
+                    <p>身处异地的这几年会很苦，有时候连想吵架都很难。因为我们的生活没有了交集，连个吵架的理由都找不到，就算是吵了，也会想是不是我们疏远了？说的每一句话、干的每一件是都得小心翼翼，唯恐结束我们的感情路。这样的生活很累，除了思念，我们只有自己。</p>
+                    <div class="button_01"><a href="#">查看更多</a></div>
+                
+                </div>
+                
+                <div class="cleaner"></div>
+            
+            </div>
+        
+        </div>
+        
+        <div class="cleaner"></div>
+    
+    </div> <!-- end of templatemo_content_wrapper -->
+    
+    <div id="templatemo_footer">
+
+        <ul class="footer_menu">
+            <li><a href="#">首页</a></li>
+            <li><a href="/home/jianshi">关于孙建师</a></li>
+            <li><a href="/home/jiawen">关于宋佳文</a></li>
+        </ul>
+        <a href="">两情若是久长时，又岂在朝朝暮暮。</a>
+    
+    </div> <!-- end of footer -->
+    
+    </div> <!-- end of templatemo_wrapper_inner -->
+
+</div> <!-- end of templatemo_wrapper_outter -->
+<!-- templatemo 224 wedding store -->
+<!-- 
+Wedding Store Template 
+http://www.templatemo.com/preview/templatemo_224_wedding_store 
+-->
+</body>
+</html>
